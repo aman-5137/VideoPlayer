@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="header">
+    <div id="title">Video Player</div>
+
+    <div id="upload">
+        <input type="file" name="" id="video-upload-input"  accept="video/*"   hidden>
+        <label  id="upload-label" for="video-upload-input"><img src="assets\upload.png" id="img-upload"><br>Upload</label>
+    </div>
+    </div>
+
+
+
+
+    <div id="main">
+        <div id="div-1">
+            <video  id="vid" controls>
+                <source type="video/mp4">
+            </video>
+            <div id="div-1-1">
+                <label id="div-1-video-name">My name is Aman</label><br>
+                <div style="margin-top:10px">
+                <label id="div-1-video-description">Description</label>
+               
+                <p id="description">
+                    Journey back to a world of elemental magic, 
+                    captivating characters, and epic adventures 
+                    with our deep dive into the Airbender series! 
+                    Whether you're a lifelong fan or new to the Four 
+                    Nations, this video celebrates the enduring legacy of 
+                    Aang, Katara, Sokka, Toph, Zuko, and the entire Gaang.
+                </p>
+                </div>
+                
+                <label id="div-1-video-date">Date Published: 12-12-1212</label>
+            </div>
+
+        </div>
+
+        <div id="div-2">
+           <div id="label-list">Video List</div> 
+            <div id="div-2-1">
+                <ul id="playlist">
+
+                </ul>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <
+<div id="custom-alert" >
+  <div id="alert-panel" >
+    <span id="custom-alert-message"></span>
+    <br><br>
+    <button id="alert-button" onclick="closeCustomAlert()" >OK</button>
+  </div>
+</div>
+
+    <script src="script.js">
+        player();
+</script>
+</body>
+</html>
